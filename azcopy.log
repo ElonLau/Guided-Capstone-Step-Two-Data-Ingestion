@@ -1,0 +1,295 @@
+2021/09/02 03:28:12 AzcopyVersion  10.11.0
+2021/09/02 03:28:12 OS-Environment  windows
+2021/09/02 03:28:12 OS-Architecture  amd64
+2021/09/02 03:28:12 Log times are in UTC. Local time is 2 Sep 2021 11:28:12
+2021/09/02 03:28:12 Job-Command copy C:\Users\Administrator\Desktop\DE_Projects\Data_Ingestion\data https://storagespringboard.blob.core.windows.net/mycontainer --recursive=TRUE 
+2021/09/02 03:28:12 Number of CPUs: 8
+2021/09/02 03:28:12 Max file buffer RAM 4.000 GB
+2021/09/02 03:28:12 Max concurrent network operations: 128 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2021/09/02 03:28:12 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2021/09/02 03:28:12 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2021/09/02 03:28:12 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2021/09/02 03:28:12 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2021/09/02 03:28:12 Max open files when downloading: 2147483119 (auto-computed)
+2021/09/02 03:28:12 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2021-09-02T03:28:04Z or --include-after=2021-09-02T03:28:04Z
+2021/09/02 03:28:12 Authenticating to destination using Azure AD
+2021/09/02 03:28:12 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2021/09/02 03:28:12 Final job part has been created
+2021/09/02 03:28:12 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 10
+2021/09/02 03:28:12 0.0 %, 0 Done, 0 Failed, 19 Pending, 0 Skipped, 19 Total, 
+2021/09/02 03:28:13 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0 2021-09-02 03:28:13.2940188 +0000 UTC token refreshed successfully
+2021/09/02 03:28:13 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0 next token refresh's wait duration: 29m59.3529906s
+2021/09/02 03:28:13 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, credential type: OAuthToken
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=0, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=1, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=2, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=3, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=4, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=5, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=6, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=7, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=8, priority=0
+2021/09/02 03:28:13 INFO: [P#0-T#4] has worker 8 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#2] has worker 51 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#0] has worker 42 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#3] has worker 16 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#1] has worker 19 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#7] has worker 57 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#5] has worker 58 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#6] has worker 15 which is processing TRANSFER
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=9, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=10, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=11, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=12, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=13, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=14, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=15, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=16, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=17, priority=0
+2021/09/02 03:28:13 scheduling JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, Transfer#=18, priority=0
+2021/09/02 03:28:13 Final job part has been scheduled
+2021/09/02 03:28:13 INFO: [P#0-T#8] has worker 54 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#9] has worker 26 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#11] has worker 32 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#10] has worker 25 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#12] has worker 49 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#13] has worker 45 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#15] has worker 20 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#14] has worker 5 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#16] has worker 13 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#17] has worker 37 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#18] has worker 12 which is processing TRANSFER
+2021/09/02 03:28:13 INFO: [P#0-T#4] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\csv\\2020-08-05\\NYSE\\_SUCCESS" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/_SUCCESS". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#5] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\json\\2020-08-05\\NASDAQ\\._SUCCESS.crc" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/._SUCCESS.crc". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#0] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\json\\2020-08-05\\NASDAQ\\_SUCCESS" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/_SUCCESS". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#2] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\csv\\2020-08-06\\NYSE\\part-00000-214fff0a-f408-466c-bb15-095cd8b648dc-c000.txt" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/part-00000-214fff0a-f408-466c-bb15-095cd8b648dc-c000.txt". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#3] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\.DS_Store" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/.DS_Store". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#7] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\csv\\2020-08-05\\NYSE\\part-00000-5e4ced0a-66e2-442a-b020-347d0df4df8f-c000.txt" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/part-00000-5e4ced0a-66e2-442a-b020-347d0df4df8f-c000.txt". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#1] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\csv\\2020-08-05\\NYSE\\.part-00000-5e4ced0a-66e2-442a-b020-347d0df4df8f-c000.txt.crc" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/.part-00000-5e4ced0a-66e2-442a-b020-347d0df4df8f-c000.txt.crc". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#8] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\json\\2020-08-05\\NASDAQ\\.part-00000-c6c48831-3d45-4887-ba5f-82060885fc6c-c000.txt.crc" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/.part-00000-c6c48831-3d45-4887-ba5f-82060885fc6c-c000.txt.crc". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#6] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\json\\2020-08-06\\NASDAQ\\_SUCCESS" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/_SUCCESS". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#9] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\json\\2020-08-06\\NASDAQ\\part-00000-092ec1db-39ab-4079-9580-f7c7b516a283-c000.txt" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/part-00000-092ec1db-39ab-4079-9580-f7c7b516a283-c000.txt". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#10] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\json\\2020-08-06\\NASDAQ\\.part-00000-092ec1db-39ab-4079-9580-f7c7b516a283-c000.txt.crc" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/.part-00000-092ec1db-39ab-4079-9580-f7c7b516a283-c000.txt.crc". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#12] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\json\\2020-08-06\\NASDAQ\\._SUCCESS.crc" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/._SUCCESS.crc". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#13] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\csv\\.DS_Store" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/.DS_Store". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#11] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\csv\\2020-08-05\\.DS_Store" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/.DS_Store". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#15] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\csv\\2020-08-06\\NYSE\\_SUCCESS" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/_SUCCESS". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#14] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\csv\\2020-08-06\\NYSE\\.part-00000-214fff0a-f408-466c-bb15-095cd8b648dc-c000.txt.crc" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/.part-00000-214fff0a-f408-466c-bb15-095cd8b648dc-c000.txt.crc". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#17] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\csv\\2020-08-06\\NYSE\\._SUCCESS.crc" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/._SUCCESS.crc". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#16] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\json\\2020-08-05\\NASDAQ\\part-00000-c6c48831-3d45-4887-ba5f-82060885fc6c-c000.txt" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/part-00000-c6c48831-3d45-4887-ba5f-82060885fc6c-c000.txt". Specified chunk size 8388608
+2021/09/02 03:28:13 INFO: [P#0-T#18] Starting transfer: Source "%5C%5C?\\C:\\Users\\Administrator\\Desktop\\DE_Projects\\Data_Ingestion\\data\\csv\\2020-08-05\\NYSE\\._SUCCESS.crc" Destination "https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/._SUCCESS.crc". Specified chunk size 8388608
+2021/09/02 03:28:14 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B: 19, E:  0, T: 19, GRs: 128
+2021/09/02 03:28:14 0.0 %, 0 Done, 0 Failed, 19 Pending, 0 Skipped, 19 Total, 2-sec Throughput (Mb/s): 0.4944
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/324.4194ms, OpTime=1.0790973s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/.part-00000-c6c48831-3d45-4887-ba5f-82060885fc6c-c000.txt.crc?timeout=901
+   X-Ms-Request-Id: [727fb49a-801e-001d-26aa-9fafb3000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/276.9044ms, OpTime=1.0800986s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/.part-00000-092ec1db-39ab-4079-9580-f7c7b516a283-c000.txt.crc?timeout=901
+   X-Ms-Request-Id: [548aa98a-e01e-0069-5faa-9f9b43000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/266.9126ms, OpTime=1.0800986s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/.DS_Store?timeout=901
+   X-Ms-Request-Id: [998dbd03-d01e-0010-21aa-9f6767000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/274.9143ms, OpTime=1.094099s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/._SUCCESS.crc?timeout=901
+   X-Ms-Request-Id: [c399fb69-f01e-005a-1faa-9fc4e8000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/300.38ms, OpTime=1.1456426s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/_SUCCESS?timeout=901
+   X-Ms-Request-Id: [bc673cdd-f01e-0007-7caa-9fce6c000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/306.38ms, OpTime=1.1456426s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/_SUCCESS?timeout=901
+   X-Ms-Request-Id: [5a908c0e-201e-002b-14aa-9f22c3000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/284.3902ms, OpTime=1.1456426s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/_SUCCESS?timeout=901
+   X-Ms-Request-Id: [6274f3f1-b01e-0016-40aa-9f54d8000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/295.377ms, OpTime=1.1466386s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/.part-00000-214fff0a-f408-466c-bb15-095cd8b648dc-c000.txt.crc?timeout=901
+   X-Ms-Request-Id: [66eb88bc-201e-0004-0aaa-9f2f08000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/273.1798ms, OpTime=1.1516372s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/.DS_Store?timeout=901
+   X-Ms-Request-Id: [0ac4a83d-301e-0045-53aa-9f77ec000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/249.1879ms, OpTime=1.1576292s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/._SUCCESS.crc?timeout=901
+   X-Ms-Request-Id: [4bf2754b-401e-005f-2aaa-9f1633000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/249.1879ms, OpTime=1.1576292s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/.part-00000-5e4ced0a-66e2-442a-b020-347d0df4df8f-c000.txt.crc?timeout=901
+   X-Ms-Request-Id: [a77ce075-601e-0048-04aa-9fbf38000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/249.1879ms, OpTime=1.1576292s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/_SUCCESS?timeout=901
+   X-Ms-Request-Id: [cd1e8c05-501e-006c-7caa-9f4998000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/260.1834ms, OpTime=1.1686247s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/.DS_Store?timeout=901
+   X-Ms-Request-Id: [73792b69-001e-003c-26aa-9f8bc8000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/268.2629ms, OpTime=1.1767042s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/._SUCCESS.crc?timeout=901
+   X-Ms-Request-Id: [585395e4-b01e-005b-56aa-9f9b34000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/302.6073ms, OpTime=1.2110486s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/._SUCCESS.crc?timeout=901
+   X-Ms-Request-Id: [677f63e9-801e-0040-11aa-9fa537000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/534.0802ms, OpTime=1.3222802s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/part-00000-214fff0a-f408-466c-bb15-095cd8b648dc-c000.txt?timeout=901
+   X-Ms-Request-Id: [1475b320-001e-0003-06aa-9f436b000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/246.1826ms, OpTime=247.1828ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/.part-00000-092ec1db-39ab-4079-9580-f7c7b516a283-c000.txt.crc?timeout=901
+   X-Ms-Request-Id: [998dbd64-d01e-0010-78aa-9f6767000000]
+
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/247.1828ms, OpTime=248.1841ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/.part-00000-c6c48831-3d45-4887-ba5f-82060885fc6c-c000.txt.crc?timeout=901
+   X-Ms-Request-Id: [727fb56e-801e-001d-66aa-9fafb3000000]
+
+2021/09/02 03:28:14 INFO: [P#0-T#8] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/.part-00000-c6c48831-3d45-4887-ba5f-82060885fc6c-c000.txt.crc
+2021/09/02 03:28:14 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=1 of 19
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/247.1639ms, OpTime=247.1639ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/.DS_Store?timeout=901
+   X-Ms-Request-Id: [548aaa01-e01e-0069-4daa-9f9b43000000]
+
+2021/09/02 03:28:14 INFO: [P#0-T#13] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/.DS_Store
+2021/09/02 03:28:14 INFO: [P#0-T#10] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/.part-00000-092ec1db-39ab-4079-9580-f7c7b516a283-c000.txt.crc
+2021/09/02 03:28:14 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=3 of 19
+2021/09/02 03:28:14 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=2 of 19
+2021/09/02 03:28:14 ==> REQUEST/RESPONSE (Try=1/250.2658ms, OpTime=250.2658ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/._SUCCESS.crc?timeout=901
+   X-Ms-Request-Id: [c399fbe6-f01e-005a-10aa-9fc4e8000000]
+
+2021/09/02 03:28:14 INFO: [P#0-T#12] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/._SUCCESS.crc
+2021/09/02 03:28:14 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=4 of 19
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/334.8873ms, OpTime=334.8873ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/_SUCCESS?timeout=901
+   X-Ms-Request-Id: [5a908cfe-201e-002b-62aa-9f22c3000000]
+
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/335.8821ms, OpTime=335.8821ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/_SUCCESS?timeout=901
+   X-Ms-Request-Id: [6274f44a-b01e-0016-0faa-9f54d8000000]
+
+2021/09/02 03:28:15 INFO: [P#0-T#15] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/_SUCCESS
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=5 of 19
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/336.8858ms, OpTime=336.8858ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/_SUCCESS?timeout=901
+   X-Ms-Request-Id: [66eb896f-201e-0004-2aaa-9f2f08000000]
+
+2021/09/02 03:28:15 INFO: [P#0-T#6] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/_SUCCESS
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=6 of 19
+2021/09/02 03:28:15 INFO: [P#0-T#0] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/_SUCCESS
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=7 of 19
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/335.891ms, OpTime=335.891ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/.part-00000-214fff0a-f408-466c-bb15-095cd8b648dc-c000.txt.crc?timeout=901
+   X-Ms-Request-Id: [bc673db0-f01e-0007-36aa-9fce6c000000]
+
+2021/09/02 03:28:15 INFO: [P#0-T#14] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/.part-00000-214fff0a-f408-466c-bb15-095cd8b648dc-c000.txt.crc
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/330.8832ms, OpTime=330.8832ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/.DS_Store?timeout=901
+   X-Ms-Request-Id: [0ac4a97a-301e-0045-7aaa-9f77ec000000]
+
+2021/09/02 03:28:15 INFO: [P#0-T#11] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/.DS_Store
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=9 of 19
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=8 of 19
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/612.2965ms, OpTime=1.5217383s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/part-00000-5e4ced0a-66e2-442a-b020-347d0df4df8f-c000.txt?timeout=901
+   X-Ms-Request-Id: [8655e60d-401e-0060-26aa-9fde90000000]
+
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/363.111ms, OpTime=363.111ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/._SUCCESS.crc?timeout=901
+   X-Ms-Request-Id: [cd1e8ca1-501e-006c-06aa-9f4998000000]
+
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/362.1054ms, OpTime=362.1054ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/.part-00000-5e4ced0a-66e2-442a-b020-347d0df4df8f-c000.txt.crc?timeout=901
+   X-Ms-Request-Id: [a77ce0f0-601e-0048-72aa-9fbf38000000]
+
+2021/09/02 03:28:15 INFO: [P#0-T#1] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/.part-00000-5e4ced0a-66e2-442a-b020-347d0df4df8f-c000.txt.crc
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=10 of 19
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/353.1053ms, OpTime=353.1053ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/.DS_Store?timeout=901
+   X-Ms-Request-Id: [73792c86-001e-003c-28aa-9f8bc8000000]
+
+2021/09/02 03:28:15 INFO: [P#0-T#3] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/.DS_Store
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=11 of 19
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/363.1004ms, OpTime=363.1004ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/_SUCCESS?timeout=901
+   X-Ms-Request-Id: [4bf275d9-401e-005f-2daa-9f1633000000]
+
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/310.6778ms, OpTime=310.6778ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/._SUCCESS.crc?timeout=901
+   X-Ms-Request-Id: [677f64b3-801e-0040-49aa-9fa537000000]
+
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/345.0289ms, OpTime=345.0289ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/._SUCCESS.crc?timeout=901
+   X-Ms-Request-Id: [5853968c-b01e-005b-69aa-9f9b34000000]
+
+2021/09/02 03:28:15 INFO: [P#0-T#18] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/._SUCCESS.crc
+2021/09/02 03:28:15 INFO: [P#0-T#4] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/_SUCCESS
+2021/09/02 03:28:15 INFO: [P#0-T#5] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/._SUCCESS.crc
+2021/09/02 03:28:15 INFO: [P#0-T#17] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/._SUCCESS.crc
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=15 of 19
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=12 of 19
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=13 of 19
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=14 of 19
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/266.655ms, OpTime=266.655ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/part-00000-214fff0a-f408-466c-bb15-095cd8b648dc-c000.txt?timeout=901
+   X-Ms-Request-Id: [1475b45c-001e-0003-23aa-9f436b000000]
+
+2021/09/02 03:28:15 INFO: [P#0-T#2] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-06/NYSE/part-00000-214fff0a-f408-466c-bb15-095cd8b648dc-c000.txt
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=16 of 19
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/511.7867ms, OpTime=1.5899213s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/part-00000-c6c48831-3d45-4887-ba5f-82060885fc6c-c000.txt?timeout=901
+   X-Ms-Request-Id: [a9c606da-801e-006f-4aaa-9fa8fc000000]
+
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/249.5689ms, OpTime=249.5689ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/part-00000-5e4ced0a-66e2-442a-b020-347d0df4df8f-c000.txt?timeout=901
+   X-Ms-Request-Id: [585396f9-b01e-005b-4eaa-9f9b34000000]
+
+2021/09/02 03:28:15 INFO: [P#0-T#7] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/csv/2020-08-05/NYSE/part-00000-5e4ced0a-66e2-442a-b020-347d0df4df8f-c000.txt
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=17 of 19
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/270.6873ms, OpTime=271.6872ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/part-00000-c6c48831-3d45-4887-ba5f-82060885fc6c-c000.txt?timeout=901
+   X-Ms-Request-Id: [a9c60887-801e-006f-4aaa-9fa8fc000000]
+
+2021/09/02 03:28:15 INFO: [P#0-T#16] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-05/NASDAQ/part-00000-c6c48831-3d45-4887-ba5f-82060885fc6c-c000.txt
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=18 of 19
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/792.1842ms, OpTime=1.9378268s) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/part-00000-092ec1db-39ab-4079-9580-f7c7b516a283-c000.txt?timeout=901
+   X-Ms-Request-Id: [3f629f91-c01e-0051-18aa-9f3f83000000]
+
+2021/09/02 03:28:15 ==> REQUEST/RESPONSE (Try=1/259.8529ms, OpTime=259.8529ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/part-00000-092ec1db-39ab-4079-9580-f7c7b516a283-c000.txt?timeout=901
+   X-Ms-Request-Id: [3f62a157-c01e-0051-22aa-9f3f83000000]
+
+2021/09/02 03:28:15 INFO: [P#0-T#9] UPLOADSUCCESSFUL: https://storagespringboard.blob.core.windows.net/mycontainer/data/json/2020-08-06/NASDAQ/part-00000-092ec1db-39ab-4079-9580-f7c7b516a283-c000.txt
+2021/09/02 03:28:15 JobID=7d670b74-f9b5-4643-4620-230e7fb16e02, Part#=0, TransfersDone=19 of 19
+2021/09/02 03:28:15 all parts of entire Job 7d670b74-f9b5-4643-4620-230e7fb16e02 successfully completed, cancelled or paused
+2021/09/02 03:28:15 is part of Job which 1 total number of parts done 
+2021/09/02 03:28:16 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 128
+2021/09/02 03:28:16 
+
+Diagnostic stats:
+IOPS: 8
+End-to-end ms per request: 770
+Network Errors: 0.00%
+Server Busy: 0.00%
+
+
+Job 7d670b74-f9b5-4643-4620-230e7fb16e02 summary
+Elapsed Time (Minutes): 0.0667
+Number of File Transfers: 19
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 19
+Number of Transfers Completed: 19
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 239923
+Final Job Status: Completed
+
